@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+    Online Worker Survey
+    </title>
+      <style>
+      </style>
+   </head>
+   <main>
+      <header>
+        <h1> Quick Survey on working online</h1>
+      </header>
+      <body>
+      We're trying to make working online free and with benefits(like employment benefits health insurance and retirement plans)
+        
+        <form id="survey-form">
+         <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+             <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+              />
+         </div>
+          <div class="form-group">
+          <label id="e-mail-label" for="e-mail">e-mail address</label>
+             <input
+              type="text"
+              name="e-mail"
+              id="e-mail"
+              class="form-control"
+              placeholder="Enter your e-mail address"
+              required
+              />
+         </div>
+         
+          <div class="form-group">
+          <label id="age-label" for="name">Name</label>
+             <input
+              type="text"
+              name="age"
+              id="age"
+              class="form-control"
+              placeholder="Enter your age"
+              required
+              />
+         </div>
+      </body>
 
+   </main>
+</html>
