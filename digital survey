@@ -62,7 +62,38 @@
         <option value="digital settler">Digital Settler</option>
         <option value="other">Other</option>
       </select>
-    </div>
+      
+      <!-- Form Section 3-->
+       </div>
+        <p> Would you use a free online working platform?</p>
+        <label>
+          <input
+          name="would-use"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Definitely</label
+      >
+      <label>
+        <input
+          name="would-use"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Maybe</label
+      >
+
+      <label
+        ><input
+          name="would-use"
+          value="not-sure"
+          type="radio"
+          class="input-radio"
+        />Not sure</label
+         
+         <!--Form Section 4-->
+         <p> Which feature(s) would you use?  <span class="clue">(Check all that apply)</span><p/>
          
       </body>
 
