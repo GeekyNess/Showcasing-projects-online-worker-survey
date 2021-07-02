@@ -95,6 +95,64 @@
          <!--Form Section 4-->
          <p> Which feature(s) would you use?  <span class="clue">(Check all that apply)</span><p/>
          
+         <label>
+         <input
+          name="prefer"
+          value="unemployment benefits "
+          type="checkbox"
+          class="input-checkbox"
+         />
+        Unemployment Benefits</label>
+        
+         <label>
+         <input
+          name="prefer"
+          value="health insurance"
+          type="checkbox"
+          class="input-checkbox"
+         />
+          Health Insurance
+        </label>
+        
+         <label>
+         <input
+          name="prefer"
+          value="retirement plan"
+          type="checkbox"
+          class="input-checkbox"
+         />
+          Retirement Plan
+        </label>
+        
+         <label>
+         <input
+          name="prefer"
+          value="all of the above"
+          type="checkbox"
+          class="input-checkbox"
+         />
+          All of the above
+        </label>
+     
+     <label>
+         <input
+          name="prefer"
+          value="none of the above"
+          type="checkbox"
+          class="input-checkbox"
+         />
+          None of the above
+        </label>
+        
+        <label>
+         <input
+          name="prefer"
+          value="other"
+          type="checkbox"
+          class="input-checkbox"
+         />
+          Other
+        </label>
       </body>
 
    </main>
