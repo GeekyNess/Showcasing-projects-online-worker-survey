@@ -13,7 +13,7 @@
       </header>
       <body>
       We're trying to make working online free and with benefits(like employment benefits health insurance and retirement plans)
-        
+       <!-- form section 1--> 
         <form id="survey-form">
          <div class="form-group">
           <label id="name-label" for="name">Name</label>
@@ -26,6 +26,7 @@
               required
               />
          </div>
+         
           <div class="form-group">
           <label id="e-mail-label" for="e-mail">e-mail address</label>
              <input
@@ -39,16 +40,30 @@
          </div>
          
           <div class="form-group">
-          <label id="age-label" for="name">Name</label>
-             <input
-              type="text"
-              name="age"
-              id="age"
-              class="form-control"
-              placeholder="Enter your age"
-              required
-              />
-         </div>
+          <label id="number-label" for="number">Age 
+          <span class="clue">(optional)</span></label
+          <input
+          type="number"
+          name="age"
+          id="number"
+          min="10"
+          max="99"
+          class="form-control"
+          placeholder="Age"
+      />
+         
+         <!-- Form section 2 -->
+         <p>Which type of online worker are you?</p>
+         <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select current role</option>
+        <option value="digital nomad">Digital Nomad</option>
+        <option value="freelancer">Freelancer</option>
+        <option value="supplemental income worker">Supplemental Income Worker</option>
+        <option value="digital settler">Digital Settler</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+         
       </body>
 
    </main>
